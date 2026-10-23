@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "testreport.html",
+    "href": "testreport.html",
+    "title": "Test report",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "testreport.html#quarto",
+    "href": "testreport.html#quarto",
+    "title": "Test report",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "testreport.html#running-code",
+    "href": "testreport.html#running-code",
+    "title": "Test report",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\nn = 200\nx = rnorm(n)\nplot(x)\n\n\n\n\n\n\n\n\n\nsummary(x)\n\n    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. \n-3.29267 -0.73373 -0.02656 -0.05126  0.51346  2.75567 \n\n\nHere we save data\n\nwrite.csv(x, \n          row.names = FALSE,\n          file = \"dataderived/rnorm01.csv\")\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Test report",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "index.html#quarto",
+    "href": "index.html#quarto",
+    "title": "Test report",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "index.html#running-code",
+    "href": "index.html#running-code",
+    "title": "Test report",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\nn = 200\nx = rnorm(n)\nplot(x)\n\n\n\n\n\n\n\n\n\nsummary(x)\n\n    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. \n-2.25403 -0.68130 -0.07620  0.07189  0.76401  3.47708 \n\n\nHere we save data\n\nwrite.csv(x, \n          row.names = FALSE,\n          file = \"dataderived/rnorm01.csv\")\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  }
+]
